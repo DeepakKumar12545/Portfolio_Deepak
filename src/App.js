@@ -10,8 +10,7 @@ import Shop from './Pages/Shop';
 import Register from './Pages/Register';
 import Login from './Pages/Login';
 
-function App() {
-
+function App() { 
   const [trueLog, setTrueLog] = useState(true);
 
   if (trueLog) {
