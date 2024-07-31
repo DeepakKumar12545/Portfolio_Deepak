@@ -1,0 +1,16 @@
+.res{
+    width: 350px;
+    height: 350px;
+    display: inline-block;
+    margin: 20px;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}

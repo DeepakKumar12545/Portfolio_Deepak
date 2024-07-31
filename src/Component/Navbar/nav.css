@@ -1,0 +1,23 @@
+nav{
+    background: linear-gradient(to right, #448057, rgb(63 81 24));
+}
+nav ul{
+    padding: 6px 0;
+}
+
+nav ul li  {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: white;
+    mix-blend-mode: overlay;
+    cursor: pointer;
+    padding: 2px 4px;
+    height: 100%;
+    transition: all 0.8s ease-in-out;
+    font-variant: small-caps;
+}
+
+
+nav ul li:hover{
+color: rgb(10, 180, 143);
+}

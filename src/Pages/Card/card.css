@@ -1,0 +1,51 @@
+.cardBox {
+    width: 275px;
+    background: linear-gradient(45deg, hsl(207, 93%, 48%, 0.8), hsl(222, 95%, 7%, 0.5));
+    border-radius: 6px;
+    box-shadow: 0 0 12px #517c1f;
+    overflow: hidden;
+}
+
+.cardBox .imgbox {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-clip: padding-box;
+    background-size: cover;
+    height: 340px;
+    border-bottom-right-radius: 75%;
+    transition: all 0.5s ease;
+}
+
+.cardBox:hover .imgbox{
+    border-bottom-right-radius: 0%;
+}
+
+.cardDetails .name {
+    text-align: center;
+}
+
+.cardDetails .name big {
+    font-weight: 300;
+}
+
+.cardDetails .nameLink>div {
+    height: 42px;
+    width: 42px;
+    border-radius: 50px;
+    display: grid;
+    place-content: center;
+    background: linear-gradient(45deg, #0885ec, #010c25);
+    border: 1.5px solid slateblue;
+    transition: all 0.8s ease-in-out;
+}
+
+.cardDetails .nameLink>div:hover {
+    cursor: pointer;
+    box-shadow: 0 0 12px rgb(1, 1, 44);
+}
+
+.cardDetails .nameLink>div>b {
+    font-size: 1.2em;
+    color: white;
+    mix-blend-mode: overlay;
+}

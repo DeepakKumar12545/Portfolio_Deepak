@@ -1,0 +1,84 @@
+.aboutBg {
+    background: linear-gradient(to right, #253e04, #5a3004);
+}
+
+.aboutContent {
+    justify-content: center;
+    height: 100%;
+    width: 45%;
+    color: whitesmoke;
+}
+
+.aboutContent button {
+    width: 40%;
+}
+
+.aboutImg {
+    height: 25rem;
+    aspect-ratio: 0.7/1;
+    box-shadow: 0 0 12px darkslategray;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.aboutImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.aboutme {
+    background: linear-gradient(to left, #253e04, #5a3004);
+    color: aliceblue;
+}
+
+.aboutmeContent {
+    height: 100%;
+}
+
+/* service section style starts */
+.abService {
+    background: linear-gradient(to right, #253e04, #5a3004);
+    color: aliceblue;
+}
+
+.serviceHead {
+    font-weight: 600;
+}
+
+.serviceHead small {
+    font-size: 12px;
+}
+
+.serviceHead big {
+    font-size: 1.9em;
+}
+
+.serviceHead p {
+    font-size: 14.5px;
+    letter-spacing: 1.1px;
+    text-align: center;
+}
+
+.s-box {
+    border: 2px solid cadetblue;
+    text-align: center;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 12px cornflowerblue;
+}
+
+.s-box .icon {
+    font-size: 3em;
+    color: darkorange;
+}
+
+.s-box .name {
+    font-variant: small-caps;
+    font-weight: bolder;
+    color: sandybrown;
+    letter-spacing: 1.1px;
+    text-shadow: 0px 0px 12px sandybrown;
+}
+
+/* service section style ends */

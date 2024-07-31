@@ -1,0 +1,156 @@
+.homeSection {
+    height: 70vh;
+    background-image: url('../../../public/images/lalten.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: grid;
+    place-content: center;
+    animation: changeBg 10s ease-in infinite alternate-reverse;
+}
+
+@keyframes changeBg {
+    0% {
+        background-image: url('../../../public/images/lalten.jpg');
+    }
+
+    20% {
+        background-image: url('../../../public/images/beautyGirl.jpg');
+
+    }
+
+    60% {
+        background-image: url('../../../public/images/mustang.jpg');
+
+    }
+
+    80% {
+
+        background-image: url('../../../public/images/sadimage.jpg');
+
+    }
+
+    100% {
+        background-image: url('../../../public/images/greenGirl.jpg');
+
+    }
+}
+
+.homeSection .content {
+    padding: 4px 12px;
+    text-align: center;
+    box-shadow: inset 0 0 12px black;
+    border-radius: 6px;
+
+}
+
+.homeSection .content h1 {
+    font-size: 3.2em;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+    mix-blend-mode: difference;
+
+}
+
+.homeSection .content small {
+    color: whitesmoke;
+
+}
+
+
+/* form style start */
+
+.form .h1{
+    font-variant: small-caps;
+}
+.form_box {
+    display: flex;
+    width: 100%;
+    height: 40vw;
+
+    .form_image {
+        width: 40%;
+
+        .img {
+            height: 100%;
+
+            img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .form_input {
+        width: 60%;
+        background-image: url('../../../public/images/wallpaperflare.com_wallpaper.jpg'), linear-gradient(45deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        form {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .input {
+            width: 100%;
+            padding: 6px 0;
+
+
+            input {
+                width: 100%;
+                padding: 4px 8px;
+                height: 2.5em;
+                outline: none;
+                border-width: 0 0 1px 0;
+                background-color: transparent;
+                color: #fff;
+                box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.5);
+
+            }
+
+            ::placeholder {
+                color: #fff;
+                text-transform: capitalize;
+                font-size: 16px;
+                font-weight: 700;
+                opacity: 1;
+            }
+        }
+
+        .form_check {
+            color: #fff;
+            font-size: 18px;
+            backdrop-filter: blur(3px);
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 0 8px blanchedalmond;
+            width: 50%;
+
+            #lang {
+                border: none;
+                background: transparent;
+                color: aqua;
+            }
+        }
+
+        .button_box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            gap: 25px;
+
+            button {
+                width: 50%;
+            }
+        }
+    }
+}
+
+/* form style end */

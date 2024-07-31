@@ -1,0 +1,41 @@
+.newsbg {
+    /* background: linear-gradient(145deg, blue, skyblue, lime); */
+    background: linear-gradient(145deg, #040e14, #6b894a, rgb(27, 46, 27));
+
+}
+
+.newsHead{
+    text-align: center;
+}
+
+.newsHead h2{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    mix-blend-mode: overlay;
+}
+#search{
+    border: 2px solid cornflowerblue;
+    height: 40px;
+    width: 45%;
+    padding: 0 12px;
+    background: transparent;
+    border-radius: 5px;
+    outline: none;
+    color: blanchedalmond;
+}
+
+.newsCard{
+    box-shadow: 0 0 12px cornflowerblue;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+.card_button a:hover{
+    color: darkmagenta;
+}
+.card_button big{
+    color: red;
+    
+}
